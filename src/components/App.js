@@ -8,10 +8,17 @@ class App extends Component {
     super(props);
 
     this.state = {
-        data: []
+        data: [],
+        data_loaded: false
     };
   }
 
+  componentDidMount() {
+      fetch('json/db.json', {mode: 'cors'})
+        .then(res => res.json())
+        .then(data => this.setState({ data: data,
+                                      data_loaded: true }))
+  }
 
   /************/
   /** Render **/
@@ -23,6 +30,9 @@ class App extends Component {
       <div className="app">
         <h1>Hello, World</h1>
         <p>Body text.</p>
+        { this.state.data_loaded
+          ? <p>{ this.state.data['test_string'] }</p>
+          : null }
       </div>
     );
   }
