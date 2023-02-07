@@ -1,4 +1,7 @@
 # Digital Exhibit Boilerplate
+
+<img src="https://badgen.net/badge/status/ready/258723">   <img src="https://badgen.net/badge/release/v1.0.0/232d82">
+
 Want to create a digital exhibit for the Wallowa History Center? Start by taking a look at our [Advice for Programmers](https://github.com/wallowadigitalexhibits/documentation) for more information on our community culture and our data model.
 
 ## Get Started
