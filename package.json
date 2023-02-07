@@ -1,13 +1,13 @@
 {
   "name": "whc_exhibit_boilerplate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Boilerplate for a WHC digital exhibit.",
   "private": true,
   "author": "Your Name",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wallowadigitalexhibits/react-json-boilerplate.git"
+    "url": "git://github.com/wallowadigitalexhibits/digital-exhibit-boilerplate.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
