@@ -7,3 +7,11 @@ body {
   font-size: 18px;
   margin: 0;
 }
+
+.card {
+  width: 200px;
+}
+
+.card img {
+  max-width: 100%;
+}

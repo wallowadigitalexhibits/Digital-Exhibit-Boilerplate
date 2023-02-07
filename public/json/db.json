@@ -1,3 +1,9 @@
 {
-  "test_string": "This is a new test."
+  "test_string": "This is a new test.",
+  "nodes": [
+    { "id": "WHC.000001", "title": "Mountain" },
+    { "id": "WHC.000002", "title": "Waterfall" },
+    { "id": "WHC.000003", "title": "Christmas Card" },
+    { "id": "WHC.000010", "title": "Enterprise High School" }
+  ]
 }

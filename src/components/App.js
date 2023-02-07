@@ -16,8 +16,17 @@ class App extends Component {
   componentDidMount() {
       fetch('json/db.json', {mode: 'cors'})
         .then(res => res.json())
-        .then(data => this.setState({ data: data,
+        .then(data => this.setState({ nodes: data['nodes'],
                                       data_loaded: true }))
+  }
+
+  renderItem = (node) => {
+    return <div className="card"
+                key={node['id']}>
+             {node['id']}
+             <img alt={node['title']}
+                  src={"/files/" + node['id'] + "-01.jpg"} />
+           </div>
   }
 
   /************/
@@ -30,8 +39,9 @@ class App extends Component {
       <div className="app">
         <h1>Hello, World</h1>
         <p>Body text.</p>
+
         { this.state.data_loaded
-          ? <p>{ this.state.data['test_string'] }</p>
+          ? this.state.nodes.map(node => this.renderItem(node))
           : null }
       </div>
     );
