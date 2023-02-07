@@ -1,55 +1,55 @@
-# react-json-boilerplate
-Want to create a digital exhibit for the Wallowa History Center? Start here.
+# Digital Exhibit Boilerplate
+Want to create a digital exhibit for the Wallowa History Center? Start by taking a look at our [Advice for Programmers](https://github.com/wallowadigitalexhibits/documentation) for more information on our community culture and our data model.
 
 ## Get Started
 
 1. Decide on the name of your new React app. For example, if you chose `WHC Wenaha Digital Exhibit`, you'd want to use a short name like `Wenaha Exhibit` and a slug of `wenaha-exhibit` using dashes instead of spaces. 
 
-1. Clone the repository into a folder using the slug.
+2. Clone the repository into a folder using the slug.
 
 ```
-git@github.com:wallowadigitalexhibits/react-json-boilerplate.git wenaha-exhibit
+git@github.com:wallowadigitalexhibits/digital-exhibit-boilerplate.git wenaha-exhibit
 ```
 
-1. Switch to the folder.
+3. Switch to the folder.
 
 ```
 cd wenaha-exhibit
 ```
 
-1. Init yourself a new git repository. 
+4. Init yourself a new git repository. 
 
 ```
 rm -rf .git
 git init
 ```
 
-1. Edit every file to add your name, app name, version number, html title, and so on. 
+5. Edit every file to add your name, app name, version number, html title, and so on. 
 
-1. Go to [favicon.ico](https://favicon.ico) and generate a set of favicons.
+6. Go to [favicon.ico](https://favicon.ico) and generate a set of favicons.
 
-1. Replace the files in `public/favicons`.
+7. Replace the files in `public/favicons`.
 
-1. Edit the `site.webmanifest` to add the app's name and short name.
+8. Edit the `site.webmanifest` to add the app's name and short name.
 
-1. Install the app.
+9. Install the app.
 
 ```
-cd react-json-boilerplate
+cd wenaha-exhibit
 npm install
 ```
 
-1. Update this README.
+10. Update this README.
 
-1. Start the app.
+11. Start the app.
 
 ``` 
 npm run start
 ```
 
-1. The page should automatically open in your default browser. Install the React Dev Tools if you haven't already, and inspect the data in the `<App />` component. Edit the JSON file or delete one of the images from the `files` folder to see things change in real-time. 
+12. The page should automatically open in your default browser. Install the React Dev Tools if you haven't already, and inspect the data in the `<App />` component. Edit the JSON file or delete one of the images from the `files` folder to see things change in real-time. 
 
-1. Add and commit your changes with a short but insightful commit message.
+13. Add and commit your changes with a short but insightful commit message.
 
 ```
 git add :/
@@ -64,7 +64,13 @@ git commit -m "Initial commit"
 npm run build
 ```
 
-1. Copy the contents of the `build` folder to the web server of your choice.
+2. Copy the contents of the `build` folder to the web server of your choice.
+
+3. Once the app deploys successfully, edit the deploy script and use that in the future instead. 
+
+```
+./deploy.sh
+```
 
 ## Development Notes
 
