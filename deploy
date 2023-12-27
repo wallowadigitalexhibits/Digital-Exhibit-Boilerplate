@@ -7,6 +7,6 @@ echo "Building app"
 npm run build
 
 echo "Deploying files to server"
-rsync -avP build/ summerisle:/var/www/html/test
+rsync -avP build/ summerisle:/var/www/html
 
 echo "Deployment complete"
