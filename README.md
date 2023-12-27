@@ -1,12 +1,12 @@
 # Digital Exhibit Boilerplate
 
-<img src="https://badgen.net/badge/status/ready/258723">   <img src="https://badgen.net/badge/release/v1.0.0/232d82">
+<img src="https://badgen.net/badge/status/ready/258723"> <img src="https://badgen.net/badge/release/v1.0.0/232d82">
 
-Want to create a digital exhibit for the Wallowa History Center? Start by taking a look at our [Advice for Programmers](https://github.com/wallowadigitalexhibits/documentation) for more information on our community culture and our data model.
+Want to create a digital exhibit based on the Archive App data model? 
 
 ## Get Started
 
-1. Decide on the name of your new React app. For example, if you chose `WHC Wenaha Digital Exhibit`, you'd want to use a short name like `Wenaha Exhibit` and a slug of `wenaha-exhibit` using dashes instead of spaces. 
+1. Decide on the name of your new React app. For example, if you chose `Wenaha Digital Exhibit`, you'd want to use a short name like `Wenaha Exhibit` and a slug of `wenaha-exhibit` using dashes instead of spaces. 
 
 2. Clone the repository into a folder using the slug.
 
@@ -83,5 +83,5 @@ The app's source of truth is the `db.json` file, which the app loads when the to
 
 Any files in `public` will be available to the app without requiring you to rebuild and deploy. Refresh the browser page to remount the app, forcing it to reload the `db.json` file and re-render the page. You can manually add, remove, or edit the files and refresh the app to see the changes.
 
-The schema of the data provided by the Wallowa History Center will be defined by the [GraphletJS](https://github.com/wallowadigitalexhibits/graphletjs) specification. You can do whatever you want, but we'd appreciate it if you worked with the data in this format for portability. If you do something neat with the user interface, it might be something we could reuse elsewhere. 
+The schema of the data provided by the Wallowa Digital Exhibits will be defined by the [GraphletJS](https://github.com/wallowadigitalexhibits/graphletjs) specification. You can do whatever you want, but we'd appreciate it if you worked with the data in this format for portability. If you do something neat with the user interface, it might be something we could reuse elsewhere. 
 

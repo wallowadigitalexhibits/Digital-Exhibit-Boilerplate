@@ -1,6 +1,6 @@
 {
-  "short_name": "WHC Exhibit",
-  "name": "Wallowa History Center Digital Exhibit Boilerplate",
+  "short_name": "Digital Exhibit",
+  "name": "Digital Exhibit Boilerplate",
   "icons": [
     {
       "src": "favicon.ico",
